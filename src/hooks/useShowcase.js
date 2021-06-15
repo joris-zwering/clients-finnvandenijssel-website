@@ -8,7 +8,7 @@ export function useShowcase(showcaseId) {
 
 
     useEffect(() => {
-            fetch(`/showcase-items/${query}`, {
+            fetch(`/cms/showcase-items/${query}`, {
                 method: "GET",
                 headers: {
                     'Content-Type': 'application/json'

@@ -6,7 +6,7 @@ export function useAbout() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-            fetch(`/about-section`, {
+            fetch(`/cms/about-section`, {
                 method: "GET",
                 headers: {
                     'Content-Type': 'application/json'
