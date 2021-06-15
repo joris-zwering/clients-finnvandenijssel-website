@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 const { AwakeHeroku } = require("awake-heroku");
 
-AwakeHeroku.add("https://young-sea-01215.herokuapp.com/");
+AwakeHeroku.add("https://finn-van-den-ijssel-api.herokuapp.com/");
 
 ReactDOM.render(
   <React.Fragment>
