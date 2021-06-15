@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+const { AwakeHeroku } = require("awake-heroku");
+
+AwakeHeroku.add("https://young-sea-01215.herokuapp.com/");
 
 ReactDOM.render(
   <React.Fragment>
