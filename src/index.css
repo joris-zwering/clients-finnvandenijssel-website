@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'GT';
+  src: local('GT'), url(./fonts/GT-Super-Display-Bold-Trial.otf) format('opentype');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'GT-MED';
+  src: local('GT-MED'), url(./fonts/GT-Super-Display-Medium-Trial.otf) format('opentype');
 }
+
+html {
+  scroll-behavior: smooth;
+  background-color: #000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'GT';
+}
+
+h1,h2,h3,h4,h5,p,li {
+  margin: 0;
+}
+
+#hover-zoom img:hover{
+  transform: scale(1.5);
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+
+
