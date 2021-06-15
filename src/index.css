@@ -8,6 +8,8 @@
   src: local('GT-MED'), url(./fonts/GT-Super-Display-Medium-Trial.otf) format('opentype');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 html {
   scroll-behavior: smooth;
   background-color: #000;
@@ -25,6 +27,8 @@ h1, h2, h3 {
 h1,h2,h3,h4,h5,p,li {
   margin: 0;
 }
+
+
 
 #hover-zoom img:hover{
   transform: scale(1.5);
