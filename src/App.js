@@ -15,7 +15,7 @@ function Navigation() {
         <ShowcaseItemPage/>
       </Route>
       <Route path="/admin" component={() => { 
-        window.location.href = 'http://localhost:1337/admin/'; 
+        window.location.href = 'https://finn-van-den-ijssel-api.herokuapp.com/admin'; 
         return null;
       }}>
       </Route>
