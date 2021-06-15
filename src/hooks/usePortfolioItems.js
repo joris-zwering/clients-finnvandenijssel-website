@@ -8,7 +8,7 @@ export function usePortfolioItems(portfolioId) {
 
 
     useEffect(() => {
-            fetch(`/cms/portfolio-items/${query}`, {
+            fetch(`${BASEURL}/portfolio-items/${query}`, {
                 method: "GET",
                 headers: {
                     'Content-Type': 'application/json'

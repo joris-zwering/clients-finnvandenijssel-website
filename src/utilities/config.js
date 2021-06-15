@@ -1,1 +1,1 @@
-export const BASEURL = "http://127.0.0.1:1337"
+export const BASEURL = "https://finn-van-den-ijssel-api.herokuapp.com"
