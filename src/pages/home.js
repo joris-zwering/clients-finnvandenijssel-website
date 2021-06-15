@@ -113,7 +113,7 @@ function Home() {
       <section ref={AboutSectionRef} id="about" style={{width: "100%", scrollSnapAlign: "center", backgroundColor: "#0F0F0F"}}>
         <AboutSection></AboutSection>
       </section>
-      <section ref={CaseStudiesRef} id="cases" style={{width: "100%", scrollSnapAlign: "center", backgroundColor: "#0F0F0F"}}>
+      <section ref={CaseStudiesRef} id="cases" style={{width: "100%", scrollSnapAlign: "center", backgroundColor: "#0F0F0F", display: "none"}}>
         <CaseStudies></CaseStudies>
       </section>
       <section ref={ContactSectionRef} id="contact"  style={{width: "100%", scrollSnapAlign: "center", backgroundColor: "#0F0F0F"}}>
