@@ -352,7 +352,8 @@ function ShowcaseSection({data}) {
         }}
         width="100%" 
         src={data[currentPlaying]['video']['url']} 
-        autoPlay muted 
+        muted={true} 
+        autoPlay={true}
         height={size.height} 
         style={{backgroundColor: "#000", opacity: "80%", objectFit: "cover", zIndex: 1000}}
         onEndedCapture={() => {
