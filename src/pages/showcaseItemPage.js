@@ -218,13 +218,25 @@ function PortfolioItemPage() {
         <div style={{color: "#fff", textAlign: "center"}}>
           <h5 style={{fontFamily: "Poppins", fontSize: "17px", fontWeight: 500}}>CONTACT ME</h5>
           <Fade bottom>
-          <h1 style={{fontSize: "40px", marginTop: 35}}>Email</h1>
+          <h1  
+          onClick={() => {
+            window.location.href = "mailto:hello@finnvandenijssel.com?Subject=Let's have a coffee!";
+          }}
+          style={{fontSize: "40px", marginTop: 35, cursor: "pointer"}}>Email</h1>
           </Fade>
           <Fade bottom>
-          <h1 style={{fontSize: "40px", marginTop: 15}}>Linkedin</h1>
+          <h1 
+          onClick={() => {
+            window.open('https://www.linkedin.com/in/finnvandenijssel/', '_blank');
+          }}
+          style={{fontSize: "40px", marginTop: 15, cursor: "pointer"}}>Linkedin</h1>
           </Fade>
           <Fade bottom>
-          <h1 style={{fontSize: "40px", marginTop: 15}}>Instagram</h1>
+          <h1 
+          onClick={() => {
+            window.open('https://www.instagram.com/finnvdijssel_/', '_blank');
+          }}
+          style={{fontSize: "40px", marginTop: 15, cursor: "pointer"}}>Instagram</h1>
           </Fade>
         </div>
       </div>
