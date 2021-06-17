@@ -430,8 +430,10 @@ function AboutSection() {
           <h4 style={{textAlign: "center", color: "#6E8991", fontSize: 30, paddingTop: 90}}>Want to know more?</h4>
         </div>
         <Fade bottom>
-        <div style={{textAlign: "center", padding: "10px 10px", borderRadius: 7, border: "1px solid #484848", display: "block", width: "130px", margin: "auto", marginTop: 25}}>
-          <h5 style={{fontSize: 15, color: "#fff", fontFamily: "Poppins", fontWeight: 500}}>Download Bio</h5>
+        <div style={{textAlign: "center", padding: "10px 10px", borderRadius: 7, border: "1px solid #484848", display: "block", width: "130px", margin: "auto", marginTop: 25, cursor: "pointer"}}>
+          <h5 onClick={() => {
+            window.open(about['Biografie']['url'], '_blank');
+          }} style={{fontSize: 15, color: "#fff", fontFamily: "Poppins", fontWeight: 500}}>Download Bio</h5>
         </div>
         </Fade>
       </div>
