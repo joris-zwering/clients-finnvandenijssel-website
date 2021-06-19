@@ -18,7 +18,7 @@ function Header({horizontalPadding, handleNavigate}) {
                     <li onClick={() => {
                         handleNavigate('about')
                     }} style={{paddingRight: 15, cursor: "pointer"}}>About</li>
-                    <li onClick={() => {
+                    <li style={{cursor: "pointer"}} onClick={() => {
                         handleNavigate('contact')
                     }}>Contact</li>
                 </ul>}
