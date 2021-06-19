@@ -99,7 +99,7 @@ function Home() {
 
         <div className="" style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", textAlign: "center"}}>
           <h1 style={{color: "#fff", fontSize: 39}}>Finn,</h1>
-          <h1 style={{color: "#6E8991", fontSize: 39}}>Film director</h1>
+          <h1 style={{color: "#6E8991", fontSize: 39}}>Filmmaker</h1>
           <h5 style={{color: "#fff", marginTop: 20}}>*Scroll down</h5>
         </div>
       </section>
@@ -329,7 +329,7 @@ function ShowcaseSection({data}) {
             <a  onMouseEnter={mouseEnters} onMouseLeave={mouseLeaves} style={{marginTop: "40px", color: "#fff"}}>
               {data[currentPlaying] && 
               <>
-                <h5 style={{ fontSize: 23, color: "#fff", fontFamily: "Poppins", fontWeight: 400}}>{data[currentPlaying]['beschrijving']}</h5>
+                <h5 style={{ fontSize: 23, color: "#fff", fontFamily: "Poppins", fontWeight: 400}}>{data[currentPlaying]['paragraaf1']}</h5>
                 <div style={{display: "flex", alignItems: "center",  marginTop: 20, justifyContent: "space-between"}}>
                   <div style={{display: "flex", alignItems: "center"}}>
                     <h5 style={{fontFamily: "GT-MED", fontWeight: 500, marginTop: 6, fontSize: 16, color: "#fff"}}>{data[currentPlaying]['titel']}</h5>
@@ -407,7 +407,7 @@ function AboutSection() {
       
     }} ref={containerRef} style={{height: "100%", width: "100%", pointerEvents: "initial", paddingBottom: "100px"}}>
       <div style={{margin: "auto", width: "50%", minWidth: "300px", maxWidth: "600px"}}>
-        <h4 style={{textAlign: "center", color: "#fff", fontSize: 40, paddingTop: 160}}>About me</h4>
+        <h4 style={{textAlign: "center", color: "#fff", fontSize: 40, paddingTop: 160, color: "#6d898f"}}>About me</h4>
         <Fade left>
         <div style={{paddingTop: 40}}>
           <p style={{width: "85%", color: "#cfcbca", fontFamily: "Poppins", fontWeight: 400, margin: "auto", fontSize: "15.5px", lineHeight: "29px"}}>{about['Introductie']}</p>

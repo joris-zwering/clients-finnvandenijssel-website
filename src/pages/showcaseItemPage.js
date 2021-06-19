@@ -156,7 +156,7 @@ function PortfolioItemPage() {
       </section>
       <section style={{scrollSnapAlign: "center", backgroundColor: "#0F0F0F"}}>
         <div style={{margin: "auto", width: "50%", minWidth: "300px", maxWidth: "600px"}}>
-          <h4 style={{textAlign: "center", color: "#fff", fontSize: 40, paddingTop: 160, color: "#CFC9C9"}}>{portfolioItem['titel']}</h4>
+          <h4 style={{textAlign: "center", color: "#fff", fontSize: 40, paddingTop: 160, color: "#6d898f"}}>{portfolioItem['titel']}</h4>
           <p style={{width: "85%", color: "#cfcbca", fontFamily: "Poppins", fontWeight: 400, margin: "auto", fontSize: "15.5px", lineHeight: "29px", textAlign: "center", paddingTop: 20}}>
             {portfolioItem['paragraaf1']}
           </p>
