@@ -8,7 +8,7 @@ function Header({horizontalPadding, handleNavigate}) {
     return(
         <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", paddingLeft: horizontalPadding, paddingRight: horizontalPadding}}>
             <div>
-                <p style={{color: "#fff", fontFamily: "Poppins", fontSize: 20, marginTop: 20}}>Finn</p>
+                <p style={{color: "#fff", fontFamily: "Poppins", fontSize: 20, marginTop: 20}}>Finn van den IJssel</p>
             </div>
             <div>
                 {size.width > 400 && <ul style={{color: "#fff", display: "flex", listStyle:"none", fontFamily: "Poppins"}}>
