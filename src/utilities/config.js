@@ -1,1 +1,1 @@
-export const BASEURL = "https://finn-cms.herokuapp.com/"
+export const BASEURL = "https://finn-cms.herokuapp.com"
