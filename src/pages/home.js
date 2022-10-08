@@ -414,7 +414,7 @@ function AboutSection() {
         </div>
         </Fade>
         <Fade left>
-          <img width="90%" style={{margin: "auto", display: "flex", marginTop: "80px", borderRadius: 10, objectFit: "cover", height: "300px", maxHeight: "100%"}} src={about['Foto']['url']}></img>
+          <img width="90%" style={{margin: "auto", display: "flex", marginTop: "80px", borderRadius: 10, objectFit: "cover", height: "300px", maxHeight: "100%"}} src={about?.['Foto']?.['url'] }></img>
         </Fade>
         <Fade bottom>
         <div style={{paddingTop: 100}}>
