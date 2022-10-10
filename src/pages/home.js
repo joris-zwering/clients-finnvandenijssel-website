@@ -311,7 +311,6 @@ function ShowcaseSection({data}) {
                 onMouseLeave={mouseLeaves}
                 style={{marginTop: "40px", color: "#fff"}}>
                   <h5 style={{ fontSize: 19, fontFamily: "GT-MED", fontWeight: 500}}>{items.titel}</h5>
-                  <h5 style={{fontFamily: "Poppins", fontWeight: 500, marginTop: 6, fontSize: 14}}>Zalando</h5>
                 </a>
               </div>
             </div>
