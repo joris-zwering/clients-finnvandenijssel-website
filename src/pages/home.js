@@ -332,7 +332,6 @@ function ShowcaseSection({data}) {
                 <div style={{display: "flex", alignItems: "center",  marginTop: 20, justifyContent: "space-between"}}>
                   <div style={{display: "flex", alignItems: "center"}}>
                     <h5 style={{fontFamily: "GT-MED", fontWeight: 500, marginTop: 6, fontSize: 16, color: "#fff"}}>{data[currentPlaying]['titel']}</h5>
-                    <h5 style={{fontFamily: "Poppins", fontWeight: 400, marginTop: 6, fontSize: 16, color: "#fff", marginLeft: 40}}>Persoonlijk</h5>
                   </div>
                   <div style={{display: "flex", alignItems: "center"}}>
                     <h5 style={{fontFamily: "Poppins", fontSize: 16, fontWeight: 400, color: "#fff", marginRight: 20}}>WATCH THE FILM</h5>
