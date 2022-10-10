@@ -500,7 +500,7 @@ function ContactSection() {
         <Fade bottom>
         <h1  
         onClick={() => {
-          window.location.href = "mailto:hello@finnvandenijssel.com?Subject=Let's have a coffee!";
+          window.location.href = "mailto:finnvdij@gmail.com?Subject=Let's have a coffee!";
         }}
         style={{fontSize: "40px", marginTop: 35, cursor: "pointer"}}>Email</h1>
         </Fade>
